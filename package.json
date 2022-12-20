@@ -134,7 +134,12 @@
           "type": "string",
           "description": "Print statement to show in fish files",
           "default": "echo \"{{escaped}} ${{raw}}\""
-        }
+        },
+				"print-it.bat.template": {
+					"type": "string",
+					"description": "Print statement to show in bat files",
+					"default": "echo \"{{escaped}} %{{raw}}%\""
+				}
       }
     }
   },
